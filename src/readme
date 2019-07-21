@@ -1,1 +1,26 @@
 sourcecode
+
+define.v:
+	Global include
+
+code structure
+└── myCPU
+    ├── IF
+    │   ├── pc_reg
+    │   └── mux_32
+    ├── IF_ID
+    ├── ID
+    │   ├── regfile
+    │   └── control
+    ├── ID_EX
+    ├── EX
+    │   ├── Add
+    │   ├── mux_32
+    │   ├── ALUControl
+    │   ├── ALU
+    │   └── mux_5
+    ├── EX_MEM
+    ├── MEM
+    ├── MEM_WB
+    └── WB
+        └── mux_32
