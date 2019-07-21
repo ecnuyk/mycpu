@@ -1,11 +1,17 @@
-sourcecode
+# Source Code
+
 
 define.v:	Global include
 
-structure format
-└── instance_name:module_name (file_name)
 
-code structure
+## structure format
+```
+└── instance_name:module_name (file_name)
+```
+
+
+## code structure
+```
 └── myCPU (myCPU.v)
     ├── IF:IF (if.v)
     │   ├── PC:pc_reg (pc.v)
@@ -26,3 +32,4 @@ code structure
     ├── MEM_WB:MEM_WB (mem_wb.v)
     └── WB:WB (wb.v)
         └── mux32:mux_32 (mux_32.v)
+```
